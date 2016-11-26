@@ -1,0 +1,1 @@
+clearvars -except GDP CPI SHIBOR LPR PPI MS rrr SHMargin sheetname figsavepath
