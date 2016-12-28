@@ -1,0 +1,102 @@
+2016-12-24 04:40:34
+Order: 312 , Freq: 1, Stock: 长江证券Order: 300 , Freq: 1, Stock: 中国人寿
+2016-12-24 04:50:38
+Order: 314 , Freq: 1, Stock: 长江证券Order: 302 , Freq: 1, Stock: 中国人寿
+2016-12-24 05:00:41
+Order: 314 , Freq: 1, Stock: 长江证券Order: 304 , Freq: 1, Stock: 浦发银行
+2016-12-24 05:10:46
+Order: 314 , Freq: 1, Stock: 长江证券Order: 304 , Freq: 1, Stock: 浦发银行
+2016-12-24 05:58:11
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 06:08:15
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 06:18:18
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 06:28:22
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 06:38:26
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 06:48:30
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 06:58:34
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 07:08:37
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 07:18:41
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 07:28:45
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 07:38:49
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 07:48:52
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 07:58:56
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 08:09:00
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 08:19:03
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 18:38:52
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 18:48:55
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 18:58:57
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 19:09:00
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 19:19:03
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 19:29:06
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 19:39:08
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 19:49:11
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 19:59:14
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 20:09:18
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 20:19:22
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 20:29:25
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 20:39:29
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 20:49:33
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 20:59:36
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 21:09:40
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 21:19:44
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 21:29:48
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 21:39:52
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 21:49:55
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 21:59:59
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 22:10:02
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 22:20:06
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 22:30:10
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 22:40:14
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 22:50:18
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 23:00:21
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 23:10:25
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 23:20:29
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 23:30:33
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 23:40:37
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券
+2016-12-24 23:50:41
+Order: 153 , Freq: 2, Stock: 兴业证券,东北证券Order: 150 , Freq: 1, Stock: 长江证券

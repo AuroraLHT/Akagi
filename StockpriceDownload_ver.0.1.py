@@ -6,6 +6,12 @@ import math
 from datetime import date
 import threading
 import _thread
+import Stock_config_kit as Skit
+
+
+Conf=Skit.configfile('StockP_config.json')
+[code,DataSavingtype,I_Mode,Force,StockSavingpath,MacroSavingPath,DefaultPath]=Conf.Set_Stock_Download()
+Stockgroup=1
 
 RDate=time.strftime("%Y-%m-%d",time.gmtime())
 RYear=time.strftime("%Y",time.gmtime())
@@ -254,8 +260,10 @@ def _menu(lib):
             print('\t'+str(i)+'. '+hdr._display())
             i+=1
         j=j+1
+# Comment for file type. excel csv hdf5 json mysql mongodb
+# mysql should be next step
 
-def  _SAVE(Type='excel',Path='C:\\Users\\macbook\Desktop\\',NA='TEST',para=''):
+def  _SAVE(Type='excel',Path='C:\\Users\\macbook\\Desktop\\',NA='TEST',para=''):
 
     Type=Type.lower()
     SAVEHDL={'excel':['to_excel','xlsx'],'csv':['to_csv','csv'],'hdf5':['to_hdf','h5'],'json':['to_json'],'mysql':['to_sql'],'mongodb':['to_mongodb']}
@@ -339,7 +347,7 @@ def _intergralsheet(dataset):
         #其中的axis=1表示按列进行合并，axis=0表示按行合并，并且，Series都处理成一列，所以这里如果选axis=0的话，将得到一个10×1的DataFrame。下面这个例子展示了如何按行合并DataFrame成一个大的DataFrame：
     return [finaldata]
 
-def     threadsocket(Han,para,Columns,NA_SET=[],Path='C:\\\\Users\\\\macbook\\\\Desktop\\\\研究数据\\\\股票历史\\\\',Type='excel',treat=0):
+def     threadsocket(Han,para,Columns,NA_SET=[],Path='C:/Users/macbook/Desktop/研究数据/股票历史/',Type='excel',treat=0):
     try:
         if treat and isinstance(Han,HDR):
             dataset=allnum( _getdata(Han,para,Columns) )  #in stock trading, sort() need to be solve out
@@ -379,12 +387,12 @@ def stockbasic():
 def routimethreadcreat_stock(codeset,time,groupnum,SBa):
 
     RE=[]
-    for i in range( math.ceil(len(codeset)/4) ):
+    for i in range( math.ceil(len(codeset)/groupnum) ):
         a={'codeset':[],'nameset':[],'time':time}
         for j in range(groupnum):
-            if i*4+j<len(codeset):
-                a['codeset'].append(codeset[i*4+j])
-                a['nameset'].append(codeset[i*4+j] +SBa.ix[ codeset[i*4+j] ][0] )
+            if i*groupnum+j<len(codeset):
+                a['codeset'].append(codeset[i*groupnum+j])
+                a['nameset'].append(codeset[i*groupnum+j] +SBa.ix[ codeset[i*groupnum+j] ][0] )
             else:
                 break
             #a[nameset].append(nameset[i])
@@ -393,7 +401,7 @@ def routimethreadcreat_stock(codeset,time,groupnum,SBa):
 
 
 class tuthread (threading.Thread):
-    def __init__(self,ID,Name,H,para,column=[''],SaveName=[''],Path='C:\\\\Users\\\\macbook\\\\Desktop\\\\研究数据\\\\股票历史\\\\',Type='excel',Treat=0):
+    def __init__(self,ID,Name,H,para,column=[''],SaveName=[''],Path='C:/Users/macbook/Desktop/研究数据/股票历史/',Type='excel',Treat=0):
         threading.Thread.__init__(self)
         self.threadID=ID
         self.name=Name
@@ -410,7 +418,7 @@ class tuthread (threading.Thread):
         print('\nstart thread ID: '+str(self.threadID)+'  thread name:'+ str(self.name) )
 
         threadsocket(self.H,self.para,self.columns,self.Savename,self.Path,self.savetype,self.treat)
-        
+
         print('\nend thread ID: '+str(self.threadID)+'   thread name:' + str(self.name) )
 
 
@@ -430,8 +438,11 @@ def main():
         if(routine_Bool):
 
             savingcont=0
-            Path='C:\\\\Users\\\\macbook\\\\Desktop\\\\研究数据\\\\个股\\\\AutoMacro\\\\'
-            Type='excel'
+            #Path='C:/Users/macbook/Desktop/研究数据/个股/AutoMacro/'
+            #Type='excel'
+            Path=MacroSavingPath
+            Type=DataSavingtype
+
             Thset=[]
             ID=0
             ThreadName='R_Thread'
@@ -459,26 +470,32 @@ def main():
 
         else:
     #        savingcont=0
-            Path='C:\\\\Users\\\\macbook\\\\Desktop\\\\研究数据\\\\股票历史\\\\'
-            stockchain='000826,000959,300187,300284,600428,600896,601808,601866,601919,600276,002004,600470,600576,002432'
-            Type='excel'
+            #Path='C:/Users/macbook/Desktop/研究数据/股票历史/'
+            #stockchain='000826,000959,300187,300284,600428,600896,601808,601866,601919,600276,002004,600470,600576,002432'
+            #Type='excel'
+            Path=StockSavingpath
+            stockchain=','.join(code)
+            Type=DataSavingtype
             Columns=['']
+
         #    Rou=[]
             ID=0
             ThreadName='R_Thread'
-            Paraset=routimethreadcreat_stock(stockchain.split(','),'2013-01-01',4,SBa  )
+            Paraset=routimethreadcreat_stock(stockchain.split(','),'2013-01-01',Stockgroup,SBa  )
 
             for Para in Paraset:
                 #    a={'codeset':[],'nameset':[],'time':time}
-                T= tuthread(ID,ThreadName+str(ID),H_F_all_handy,','.join(Para['codeset'])+'|'+Para['time'],Columns,Para['nameset'],Path,Type)    #_init__(self,ID,name,H,para,column=[''],SaveName=[''],Path='C:\\\\Users\\\\macbook\\\\Desktop\\\\研究数据\\\\股票历史\\\\',Type='excel')
+                T= tuthread(ID,ThreadName+str(ID),H_F_all_handy,','.join(Para['codeset'])+'|'+Para['time'],Columns,Para['nameset'],Path,Type)    #_init__(self,ID,name,H,para,column=[''],SaveName=[''],Path='C:/Users/macbook/Desktop/研究数据/股票历史/',Type='excel')
                 T.start()
                 ID+=1
 
     Threadset=[]
     ThreadName='Thread'
     ID=1
-    Path='C:\\\\Users\\\\macbook\\\\Desktop\\\\研究数据\\\\股票历史\\\\'
-    Type='excel'
+    #Path='C:/Users/macbook/Desktop/研究数据/股票历史/'
+    Path=DefaultPath
+    #Type='excel'
+    Type=DataSavingtype
 
     while( input(" type 'end' to end the program ").lower() !='end'):
 
@@ -497,7 +514,7 @@ def main():
 
         Han=eval( 'HTFlib[Key]['+Sub+']')
 
-        T= tuthread(ID,ThreadName,Han,para,Columns,NA_SET,Path,Type)    #_init__(self,ID,name,H,para,column=[''],SaveName=[''],Path='C:\\\\Users\\\\macbook\\\\Desktop\\\\研究数据\\\\股票历史\\\\',Type='excel')
+        T= tuthread(ID,ThreadName,Han,para,Columns,NA_SET,Path,Type)    #_init__(self,ID,name,H,para,column=[''],SaveName=[''],Path='C:/Users/macbook/Desktop/研究数据/股票历史/',Type='excel')
         T.start()
         Threadset.append(T)
 
@@ -508,4 +525,4 @@ def main():
     #eval('ts.'+NameSpace[N]+'()')
     input("--------------End----------------")
 
-main()
+if __name__ == '__main__': main()

@@ -1,0 +1,96 @@
+2016-12-28 04:32:13
+Order: 1.00201 , Freq: 1, Stock: 福田汽车
+Order: 1.00197 , Freq: 1, Stock: 京威股份
+Order: 1.00175 , Freq: 7, Stock: 二六三,佳讯飞鸿,华宇软件,久其软件,用友网络,华胜天成,紫光股份
+Order: 1.00175 , Freq: 2, Stock: 碧水源,首创股份
+Order: 1.00167 , Freq: 1, Stock: 中信银行
+2016-12-28 04:42:16
+Order: 1.00248 , Freq: 1, Stock: 福田汽车
+Order: 1.00248 , Freq: 1, Stock: 京威股份
+Order: 1.00248 , Freq: 2, Stock: 碧水源,首创股份
+Order: 1.00248 , Freq: 7, Stock: 二六三,佳讯飞鸿,华宇软件,久其软件,用友网络,华胜天成,紫光股份
+Order: 1.00248 , Freq: 1, Stock: 中信银行
+2016-12-28 04:52:19
+Order: 1.00248 , Freq: 1, Stock: 福田汽车
+Order: 1.00248 , Freq: 1, Stock: 京威股份
+Order: 1.00248 , Freq: 2, Stock: 碧水源,首创股份
+Order: 1.00248 , Freq: 7, Stock: 二六三,佳讯飞鸿,华宇软件,久其软件,用友网络,华胜天成,紫光股份
+Order: 1.00248 , Freq: 1, Stock: 中信银行
+2016-12-28 05:02:21
+Order: 4.00000 , Freq: 1, Stock: 中信银行
+Order: 4.00000 , Freq: 1, Stock: 民生银行
+Order: 4.00000 , Freq: 10, Stock: 北京银行,农业银行,新华保险,建设银行,中国人寿,工商银行,东兴证券,光大银行,华夏银行,中国银行
+Order: 4.00000 , Freq: 1, Stock: 渤海金控
+Order: 4.00000 , Freq: 2, Stock: 中航资本,方正证券
+2016-12-28 05:12:24
+Order: 3.15957 , Freq: 1, Stock: 航天信息
+Order: 2.99179 , Freq: 1, Stock: 航天通信
+Order: 2.49838 , Freq: 1, Stock: 国投电力
+Order: 2.33060 , Freq: 2, Stock: 华电能源,建投能源
+Order: 2.16778 , Freq: 1, Stock: 天地科技
+2016-12-28 05:22:26
+Order: 3.05053 , Freq: 1, Stock: 中国建筑
+Order: 3.00000 , Freq: 1, Stock: 印纪传媒
+Order: 2.69622 , Freq: 1, Stock: 智光电气
+Order: 2.65292 , Freq: 1, Stock: 中国电建
+Order: 2.60239 , Freq: 1, Stock: 隧道股份
+2016-12-28 05:32:29
+Order: 2.00011 , Freq: 1, Stock: 印纪传媒
+Order: 2.00010 , Freq: 2, Stock: 广电网络,电广传媒
+Order: 2.00008 , Freq: 5, Stock: 中文在线,华录百纳,万达院线,歌华有线,光线传媒
+Order: 2.00008 , Freq: 1, Stock: 航天信息
+Order: 2.00007 , Freq: 32, Stock: 出版传媒,天舟文化,中南传媒,*ST生物,长江传媒,湖北广电,天威视讯,华闻传媒,华数传媒,唐德影视,完美世界,思美传媒,华策影视,华媒控股,华谊兄弟,浙报传媒,大地传媒,中文传媒,江苏有线,凤凰传媒,长城影视,奥飞娱乐,粤 传 媒,*ST山水,时代出版,皖新传媒,长城动漫,吉视传媒,中视传媒,新华传媒,新文化,东方明珠
+2016-12-28 05:42:31
+Order: 14.00000 , Freq: 1, Stock: 京能置业
+Order: 14.00000 , Freq: 15, Stock: 金 融 街,泛海控股,中房股份,北辰实业,首开股份,绵石投资,北京城建,大龙地产,华业资本,空港股份,信达地产,中 关 村,新华联,华远地产,万通地产
+Order: 12.00000 , Freq: 1, Stock: 财信发展
+Order: 10.60239 , Freq: 1, Stock: 中润资源
+Order: 10.60239 , Freq: 1, Stock: 天业股份
+2016-12-28 05:52:34
+Order: 2.01888 , Freq: 1, Stock: 中国银行
+Order: 2.01888 , Freq: 10, Stock: 北京银行,农业银行,新华保险,建设银行,中国人寿,工商银行,民生银行,光大银行,华夏银行,中信银行
+Order: 2.01861 , Freq: 1, Stock: 东兴证券
+Order: 2.00081 , Freq: 30, Stock: 中航资本,陕国投Ａ,西南证券,兴业证券,兴业银行,方正证券,长江证券,招商证券,招商银行,中信证券,平安银行,中国平安,宁波银行,华泰证券,南京银行,东吴证券,渤海金控,锦龙股份,广发证券,山西证券,国元证券,国金证券,东北证券,西水股份,海通证券,浦发银行,交通银行,光大证券,中国太保,爱建集团
+Order: 2.00075 , Freq: 1, Stock: 国海证券
+2016-12-28 06:02:37
+Order: 28.00272 , Freq: 1, Stock: 浦发银行
+Order: 26.00000 , Freq: 2, Stock: 三爱富,氯碱化工
+Order: 20.05998 , Freq: 1, Stock: 新纶科技
+Order: 20.00272 , Freq: 2, Stock: 招商银行,平安银行
+Order: 20.00000 , Freq: 1, Stock: 隧道股份
+2016-12-28 06:12:39
+Order: 9.01010 , Freq: 1, Stock: 杭电股份
+Order: 8.01348 , Freq: 1, Stock: 大富科技
+Order: 8.00109 , Freq: 1, Stock: 同方股份
+Order: 7.99861 , Freq: 1, Stock: 力合股份
+Order: 7.03737 , Freq: 1, Stock: 金路集团
+2016-12-28 06:22:42
+Order: 11.39851 , Freq: 1, Stock: 中国银行
+Order: 11.29894 , Freq: 10, Stock: 北京银行,农业银行,新华保险,建设银行,中国人寿,工商银行,民生银行,光大银行,华夏银行,中信银行
+Order: 10.49813 , Freq: 2, Stock: 招商银行,平安银行
+Order: 10.49812 , Freq: 3, Stock: 招商证券,中信证券,中国平安
+Order: 10.49808 , Freq: 3, Stock: 中航资本,方正证券,渤海金控
+2016-12-28 06:32:44
+Order: 13.00297 , Freq: 1, Stock: 光线传媒
+Order: 13.00049 , Freq: 1, Stock: 华谊兄弟
+Order: 13.00000 , Freq: 1, Stock: 唐德影视
+Order: 12.16629 , Freq: 1, Stock: 天威视讯
+Order: 12.02732 , Freq: 2, Stock: 印纪传媒,长城动漫
+2016-12-28 06:42:47
+Order: 1.26311 , Freq: 1, Stock: 浦发银行
+Order: 1.26311 , Freq: 5, Stock: 海通证券,交通银行,光大证券,中国太保,爱建集团
+Order: 1.26311 , Freq: 2, Stock: 东方证券,安信信托
+Order: 1.26300 , Freq: 1, Stock: 上海医药
+Order: 1.26300 , Freq: 3, Stock: 豫园商城,百联股份,新世界
+2016-12-28 06:52:49
+Order: 3.57623 , Freq: 2, Stock: 龙宇燃油,上海石化
+Order: 2.40957 , Freq: 1, Stock: 广聚能源
+Order: 2.40957 , Freq: 1, Stock: 恒泰艾普
+Order: 2.40957 , Freq: 1, Stock: 中国石油
+Order: 2.40957 , Freq: 4, Stock: 惠博普,中国石化,石化油服,潜能恒信
+2016-12-28 07:02:52
+Order: 1.36302 , Freq: 1, Stock: 乐视网
+Order: 1.36302 , Freq: 2, Stock: 用友网络,紫光股份
+Order: 1.36302 , Freq: 1, Stock: 佳讯飞鸿
+Order: 1.36302 , Freq: 1, Stock: 华胜天成
+Order: 1.36302 , Freq: 1, Stock: 同方股份

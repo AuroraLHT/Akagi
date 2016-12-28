@@ -1,0 +1,24 @@
+2016-12-28 07:43:01
+Order: 70.62569 , Freq: 1, Stock: 渤海金控
+Order: 69.75930 , Freq: 1, Stock: 三七互娱
+Order: 68.77839 , Freq: 1, Stock: 广汽集团
+Order: 65.81566 , Freq: 3, Stock: 华域汽车,上汽集团,华谊集团
+Order: 63.87383 , Freq: 1, Stock: 申华控股
+2016-12-28 07:53:03
+Order: 81.55818 , Freq: 1, Stock: 渤海金控
+Order: 74.01871 , Freq: 2, Stock: 中航资本,方正证券
+Order: 69.30654 , Freq: 1, Stock: 浦发银行
+Order: 67.02280 , Freq: 1, Stock: 三七互娱
+Order: 66.08036 , Freq: 1, Stock: 广汽集团
+2016-12-28 08:03:06
+Order: 78.96132 , Freq: 1, Stock: 渤海金控
+Order: 71.66192 , Freq: 2, Stock: 中航资本,方正证券
+Order: 67.09979 , Freq: 1, Stock: 浦发银行
+Order: 64.88876 , Freq: 1, Stock: 三七互娱
+Order: 63.97633 , Freq: 1, Stock: 广汽集团
+2016-12-28 08:13:09
+Order: 76.98182 , Freq: 1, Stock: 渤海金控
+Order: 69.86541 , Freq: 2, Stock: 中航资本,方正证券
+Order: 65.41765 , Freq: 1, Stock: 浦发银行
+Order: 63.26205 , Freq: 1, Stock: 三七互娱
+Order: 62.37249 , Freq: 1, Stock: 广汽集团

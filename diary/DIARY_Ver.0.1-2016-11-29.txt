@@ -1,0 +1,44 @@
+2016-11-29 20:00:41
+Order: 138 , Freq: 1, Stock: 浦发银行Order: 132 , Freq: 2, Stock: 海通证券,东方证券
+2016-11-29 20:10:46
+Order: 138 , Freq: 1, Stock: 浦发银行Order: 132 , Freq: 2, Stock: 海通证券,东方证券
+2016-11-29 20:20:51
+Order: 138 , Freq: 1, Stock: 浦发银行Order: 132 , Freq: 2, Stock: 海通证券,东方证券
+2016-11-29 20:30:55
+Order: 138 , Freq: 1, Stock: 浦发银行Order: 132 , Freq: 2, Stock: 海通证券,东方证券
+2016-11-29 20:41:00
+Order: 138 , Freq: 1, Stock: 浦发银行Order: 132 , Freq: 2, Stock: 海通证券,东方证券
+2016-11-29 21:14:38
+Order: 138 , Freq: 1, Stock: 浦发银行Order: 132 , Freq: 2, Stock: 海通证券,东方证券
+2016-11-29 21:24:42
+Order: 138 , Freq: 1, Stock: 浦发银行Order: 132 , Freq: 2, Stock: 海通证券,东方证券
+2016-11-29 21:34:46
+Order: 138 , Freq: 1, Stock: 浦发银行Order: 132 , Freq: 2, Stock: 海通证券,东方证券
+2016-11-29 21:44:50
+Order: 138 , Freq: 1, Stock: 浦发银行Order: 132 , Freq: 2, Stock: 海通证券,东方证券
+2016-11-29 21:54:54
+Order: 138 , Freq: 1, Stock: 浦发银行Order: 132 , Freq: 2, Stock: 海通证券,东方证券
+2016-11-29 22:04:58
+Order: 138 , Freq: 1, Stock: 浦发银行Order: 132 , Freq: 2, Stock: 海通证券,东方证券
+2016-11-29 22:15:01
+Order: 138 , Freq: 1, Stock: 浦发银行Order: 132 , Freq: 2, Stock: 海通证券,东方证券
+2016-11-29 22:25:05
+Order: 138 , Freq: 1, Stock: 浦发银行Order: 132 , Freq: 2, Stock: 海通证券,东方证券
+2016-11-29 22:35:08
+Order: 138 , Freq: 1, Stock: 浦发银行Order: 132 , Freq: 2, Stock: 海通证券,东方证券
+2016-11-29 22:45:11
+Order: 138 , Freq: 1, Stock: 浦发银行Order: 132 , Freq: 2, Stock: 海通证券,东方证券
+2016-11-29 22:55:15
+Order: 138 , Freq: 1, Stock: 浦发银行Order: 132 , Freq: 2, Stock: 海通证券,东方证券
+2016-11-29 23:05:19
+Order: 138 , Freq: 1, Stock: 浦发银行Order: 132 , Freq: 2, Stock: 海通证券,东方证券
+2016-11-29 23:15:24
+Order: 138 , Freq: 1, Stock: 浦发银行Order: 132 , Freq: 2, Stock: 海通证券,东方证券
+2016-11-29 23:25:28
+Order: 138 , Freq: 1, Stock: 浦发银行Order: 132 , Freq: 2, Stock: 海通证券,东方证券
+2016-11-29 23:35:35
+Order: 138 , Freq: 1, Stock: 浦发银行Order: 132 , Freq: 2, Stock: 海通证券,东方证券
+2016-11-29 23:45:40
+Order: 138 , Freq: 1, Stock: 浦发银行Order: 132 , Freq: 2, Stock: 海通证券,东方证券
+2016-11-29 23:55:44
+Order: 139 , Freq: 1, Stock: 浦发银行Order: 133 , Freq: 2, Stock: 海通证券,东方证券

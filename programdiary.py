@@ -1,7 +1,6 @@
 #--------
 import time
 
-
 class diaryfile:
     rootpath=''
     name=''
@@ -17,13 +16,14 @@ class diaryfile:
 
 
     def __del__(self):
-        if(self.state==True):
-            print('Diary crashed accidentally, path: %s%s'%(self.rootpath,self.name))
-        print('Diary is closed, path:  %s%s'%(self.rootpath,self.name))
+        if(self.state and self.txtfile.closed):
+            print('programdiary crashed accidentally, path: %s%s'%(self.rootpath,self.name))
+        else:
+            print('programdiary is closed, path:  %s%s'%(self.rootpath,self.name))
 
     def generate_txtdiary(self):
         if self.suffix=='txt':
-            self.txtfile= open('%s%s.%s'%(self.rootpath,self.name,self.suffix),'a+',-1)
+            self.txtfile= open('%s%s.%s'%(self.rootpath,self.name+time.strftime("-%Y-%m-%d",time.gmtime()),self.suffix),'a+',-1)
 
 
     def close_diary(self):
@@ -35,7 +35,16 @@ class diaryfile:
         self.generate_txtdiary()
         renewtime=time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
         self.txtfile.write(renewtime+'\n')
-        self.txtfile.writelines(self.messagememory)
+        try:
+            self.txtfile.writelines(self.messagememory)
+        except UnicodeEncodeError as Uerr :
+            print('The UnicodeEncodeError raised as ',Uerr)
+            print('We try to save the message individually.')
+            for Counter , M  in enumerate( self.messagememory ):
+                try:
+                    self.txtfile.writelines([M])
+                except UnicodeError:
+                    print('The error str is: #',Counter,'in the messagememory' )
         self.txtfile.close()
         self.messagememory=[]
 
@@ -50,9 +59,9 @@ class diaryfile:
                 mstr=''
                 for estr in message:
                     if isinstance(estr,str):
-                        mstr+=estr
-                self.messagememory.append(mstr+'\n')
+                        mstr=estr
+                        self.messagememory.append(mstr+'\n')
             except:
                 print('list message format is invalid, try to convert all the elements into string')
         else:
-            print('Unknown type of message')
+            raise Exception('Unknown type of message')

@@ -8,7 +8,31 @@ import pandas
 import threading
 from MYSORT import *
 from programdiary import *
+import Stock_config_kit as Skit
+import ForgeModel
 
+COLLECTORSHOWNUM=5
+fgt={'a':0.01,'a_2':0.01,'lam':0.01}
+DIARYNAME='DIARY_Ver.0.1_ty2_0.01_0.01'
+
+def readsinatime(timestr):
+    if timestr:
+        try:
+            Year=int(time.strftime('%Y',time.gmtime()) )
+            [F,L]=timestr.split(' ')
+            [mon,day]=F.split('-')
+            [hour,minus]=L.split(':')
+            mon=int(mon)
+            day=int(day)
+            hour=int(hour)
+            minus=int(minus)
+            # in time.mktime the #6, #7's value do not matter (#0--#8)
+        except:
+            print('the timestr is not enough for unpacking process :%s'%timestr)
+            [Year,mon,day,hour,minus]=[2016,0,0,0,0]
+    else:
+        [Year,mon,day,hour,minus]=[2016,0,0,0,0]
+    return time.mktime( (Year,mon,day,hour,minus,0,0,0,0) )
 
 class loopobj(threading.Thread):
     loopflag=0 #1 means stop
@@ -49,6 +73,7 @@ class Keyword:
     Counter=0
     distribution=None
     weight=None
+    show_dis_flag=False
 
     def __init__(self,wordset,weight):
         if(isinstance(wordset,list)):
@@ -115,7 +140,7 @@ class Keyword:
             i+=1
 
         self.modify_distri(dis)
-        if c_flag==True:
+        if c_flag==True and self.show_dis_flag==True:
             self.show_distri()
 
     def _sortkeyword(self):
@@ -131,7 +156,7 @@ class Keyword:
         except:
             print(self.name,'  ',self.wordset)
 
-class stock_info(Keyword,loopobj):
+class stock_info(Keyword,loopobj,ForgeModel.Forge):
     name=''
     code=''
     browsetime=''
@@ -141,7 +166,7 @@ class stock_info(Keyword,loopobj):
     Ind_W=2
     Con_W=2
 
-    def __init__(self,name='',code='',area=[],industry=[],concept=[]):
+    def __init__(self,name='',code='',area=[],industry=[],concept=[],a=fgt['a'],a_2=fgt['a_2'],lam=fgt['lam']):
         #some time later would add a return to creat more cal
         self.name=name
         self.code=code
@@ -149,6 +174,7 @@ class stock_info(Keyword,loopobj):
         self.industry=industry
         self.concept=concept
         #self.business=business
+        ForgeModel.Forge.__init__(self,a,a_2,lam)
 
         Keyword.__init__(self,[code]+[name]+area+industry+concept,self.ini_weight() )
         loopobj.__init__(self)
@@ -171,6 +197,16 @@ class stock_info(Keyword,loopobj):
 
     def Trum(self,Newsobj):
         if Newsobj.latesttime!=self.browsetime:
+            brt=readsinatime(self.browsetime)
+            newst=readsinatime(Newsobj.latesttime)
+            if brt==(0,0,0,0,0,0,0,0,0):
+                deltat=0
+            elif newst==(0,0,0,0,0,0,0,0,0):
+                deltat=0
+            else:
+                deltat=newst-brt
+
+            self.stimulate_forge_type2(self.distribution,deltat)
             self.browsetime=Newsobj.latesttime
             self.hunt(Newsobj.latestnew)
         else:
@@ -179,7 +215,7 @@ class stock_info(Keyword,loopobj):
 class News(loopobj):
     name=None
     newslength=1
-    show_c=False
+    show_c=True
     Newsmemory= pandas.DataFrame()
     latesttime=''
     latestnew=''
@@ -193,38 +229,61 @@ class News(loopobj):
         self.show_c=show_c
 
     def Newsget(self):
-        PDnews=ts.get_latest_news(top=self.newslength,show_content=self.show_c)
+        #PDnews=ts.get_latest_news(top=self.newslength,show_content=self.show_c)
+        PDnews=ts.get_latest_news(top=self.newslength,show_content=False)
+
         try:
             if PDnews.ix[0,'time']!=self.latesttime:
                 Newsmemory=pandas.concat([self.Newsmemory,PDnews],axis=0) #按行合并
-                self.latesttime=PDnews.ix[0,'time']
-                self.latestnew=PDnews.ix[0,'classify']+PDnews.ix[0,'title']  #maybe content later
+                #self.latesttime=PDnews.ix[0,'time']
+                if self.show_c:
+                    try:
+                        Content=None
+                        C_C=0
+                        while not Content and C_C<5:
+                            Content=ts.latest_content(PDnews.ix[0,'url'])
+                            C_C+=1
+                    except:
+                        print('latest_content api fail to load url:%s'%PDnews.ix[0,'url'])
+                        Content=''
+
+                    #self.latestnew=PDnews.ix[0,'classify']+PDnews.ix[0,'title']+Content
+                    self.latestnew=PDnews.ix[0,'title']+Content
+                else:
+                    #self.latestnew=PDnews.ix[0,'classify']+PDnews.ix[0,'title']  #maybe content later
+                    self.latestnew=PDnews.ix[0,'title']
                 print(PDnews[['classify','title','time']])
+
+                if PDnews.ix[0,'time']:
+                    print('old latesttime %s'%self.latesttime)
+                    self.latesttime=PDnews.ix[0,'time']
+                    print('new latesttime %s'%self.latesttime)
+
+
         except:
-            print('Error')
+            print('Get Latest News Error')
+
 
 class Collector(loopobj):
     name=None
     dissum=None
-    showNum=2
+    showNum=COLLECTORSHOWNUM
 
-    def __init__(self,name,diary):
+    def __init__(self,name,diary,configfile):
         self.name=name
         self.diaryfile=diary
+        self.configfile=configfile
         loopobj.__init__(self)
 
     def info_collect(self,stocklist):
         self.dissum=[0 for i in range(len(stocklist))]
         #try:
         i=0
-        for stock in stocklist:
+        for i, stock in enumerate( stocklist):
             _dissum=0
-            j=0
-            for ele_dis in stock.distribution:
+            for j,ele_dis in enumerate( stock.distribution):
                 _dissum+=ele_dis*stock.weight[j]
-                j+=1
             self.dissum[i]=_dissum
-            i+=1
         #except:
         #    print('Collector Error')
 
@@ -269,7 +328,7 @@ class Collector(loopobj):
                     ind=self._indexlist[i][j]
                     SNameList.append(stocklist[ind].name)
 
-                restr='Order: %d , Freq: %d, Stock: %s'%(order,freq,','.join(SNameList))
+                restr='Order: %.5f , Freq: %d, Stock: %s'%(order,freq,','.join(SNameList))
                 reportlist.append(restr)
 
             else:
@@ -278,11 +337,22 @@ class Collector(loopobj):
         self.diaryfile.get_message(reportlist)
         self.diaryfile.update_txtdiary()
 
+    def change_conf(self,stocklist):
+        SNameList=[]
+        for i in range( len(self.counterlist) ):
+            if self.orderlist[i]!=0 and self.counterlist[i] != len(stocklist):
+                for j in range( len( self._indexlist[i] )):
+                    ind=self._indexlist[i][j]
+                    SNameList.append(stocklist[ind].code)
+        self.configfile.KW_modify(code=SNameList)
+        self.configfile.KW_save_config()
+
     def collector(self,stocklist):
         print('##############Inking the diary#############')
         self.info_collect(stocklist)
         self.info_process(stocklist)
         self.report(stocklist)
+        self.change_conf(stocklist)
         print('#############Report Finish#############')
 
 def ini_classfication():
@@ -336,7 +406,41 @@ def stock_classfication(code,Area,Concept,Industry):
 
     return [_name,_area,__concept,_industry]
 
+def prelearn_weight_s(stockobj,STR):
+    stockobj.hunt(STR)
+
+def prelearn_weight(stockobjlist,strlist):
+    for STR in strlist:
+        for stock in stockobjlist:
+            try:
+                prelearn_weight_s(stock,STR)
+            except:
+                print("Stock %s prelearn failed"%stock.name)
+#12 min to download 1000 news with content.
+def SINA_prelearn(stockobjlist,newslength,with_c=False):
+    download_flag=False
+    while not download_flag:
+        PDnews=ts.get_latest_news(top=newslength,show_content=with_c)
+
+        try:
+            len(PDnews)
+            download_flag=True
+            print("prelearn news download finished.")
+        except:
+            print("the newslength %d didn't work. We minus it with 100 and try again."%newslength)
+            newslength=newslength-100
+
+    Newsstr=[]
+    if(with_c):
+        for i in range( len( PDnews) ):     #len(PDnews.index)
+            Newsstr.append(PDnews.ix[i,'classify']+PDnews.ix[i,'title']+PDnews.ix[i,'content'])
+    else:
+        for i in range(len( PDnews)):
+            Newsstr.append(PDnews.ix[i,'classify']+PDnews.ix[i,'title'])
+    prelearn_weight(stockobjlist,Newsstr)
+
 def test():
+
 #    a=stock_info(name='a',code='000000',area=['概率'],industry=['方法','还好'],concept=['沪江','了就'])
 #    a.distribution=[0,0,0,0,0,0,0]
 #    b=stock_info(name='b',code='000000',area=[],industry=['方法','还好'],concept=['沪江','了就'])
@@ -353,7 +457,7 @@ def test():
     path='%s%s'%(os.path.dirname(__file__),'/diary/')
     #path='%s%s'%(os.path.dirname(os.path.abspath('__file__')),'/diary/')
     #path='%s%s'%(os.getcwd(),'/diary/')
-    diary=diaryfile(rootpath=path,name='testdiary_6',suffix='txt')
+    diary=diaryfile(rootpath=path,name=DIARYNAME,suffix='txt')
 
 #    testColl=Collector('SINA_COLLECTOR',diary)
 #    testColl.collector([a,b,c,d,e,f])
@@ -361,6 +465,8 @@ def test():
 #    diary.get_message('test')
 #    diary.update_txtdiary()
 #    diary.txtfile.close()
+
+    Conf=Skit.configfile('StockP_config.json')
 
 #    Testobj=stock_info(name='首钢',code='000959',industry=['普钢'])
 #    Testobj.setlooppara(5,Testobj.News)
@@ -390,7 +496,15 @@ def test():
 #    Stockobj.show_distri()
 #---------------------hunt test----------------------#
     Stockobj_chain=[]
-    [Codelist,Area,Concept,Industry]=ini_classfication()
+    ini_class_flag = True
+    while ini_class_flag:
+        try:
+            [Codelist,Area,Concept,Industry]=ini_classfication()
+            ini_class_flag=False
+        except:
+            print("Fail to download the stock classification data, We try it again...")
+            ini_class_flag = True
+
     testcoun=0
     #print(Codelist)
     for code in Codelist:
@@ -403,18 +517,16 @@ def test():
     #    Stockobj.show_distri()
 
         Stockobj_chain.append(Stockobj)
+
+    SINA_prelearn(Stockobj_chain,2000,0)
+
     #    except:
     #        print('stock initial error')
 
-
-
 #    for stock in Stockobj_chain:
 
-
-
-    Coll=Collector('SINA_COLLECTOR',diary)
+    Coll=Collector('SINA_COLLECTOR',diary,Conf)
     Coll.setlooppara(60*10,Coll.collector,Stockobj_chain)
     Coll.start()
 
-
-test()
+if __name__ == '__main__': test()

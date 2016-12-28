@@ -1,0 +1,62 @@
+2016-12-08 02:34:21
+Order: 1552 , Freq: 1, Stock: 浦发银行Order: 1504 , Freq: 1, Stock: 工商银行
+2016-12-08 02:44:27
+Order: 1561 , Freq: 1, Stock: 浦发银行Order: 1512 , Freq: 1, Stock: 工商银行
+2016-12-08 02:54:30
+Order: 1565 , Freq: 1, Stock: 浦发银行Order: 1517 , Freq: 1, Stock: 工商银行
+2016-12-08 03:04:34
+Order: 1565 , Freq: 1, Stock: 浦发银行Order: 1518 , Freq: 1, Stock: 工商银行
+2016-12-08 03:14:42
+Order: 1565 , Freq: 1, Stock: 浦发银行Order: 1518 , Freq: 1, Stock: 工商银行
+2016-12-08 03:24:50
+Order: 1571 , Freq: 1, Stock: 浦发银行Order: 1522 , Freq: 1, Stock: 工商银行
+2016-12-08 03:34:58
+Order: 1575 , Freq: 1, Stock: 浦发银行Order: 1526 , Freq: 1, Stock: 工商银行
+2016-12-08 03:45:09
+Order: 1577 , Freq: 1, Stock: 浦发银行Order: 1526 , Freq: 1, Stock: 工商银行
+2016-12-08 20:15:08
+Order: 118 , Freq: 1, Stock: 浦发银行Order: 116 , Freq: 1, Stock: 爱建集团
+2016-12-08 20:25:15
+Order: 118 , Freq: 1, Stock: 浦发银行Order: 116 , Freq: 1, Stock: 爱建集团
+2016-12-08 20:35:19
+Order: 118 , Freq: 1, Stock: 浦发银行Order: 116 , Freq: 1, Stock: 爱建集团
+2016-12-08 20:45:23
+Order: 118 , Freq: 1, Stock: 浦发银行Order: 116 , Freq: 1, Stock: 爱建集团
+2016-12-08 20:55:32
+Order: 118 , Freq: 1, Stock: 浦发银行Order: 116 , Freq: 1, Stock: 爱建集团
+2016-12-08 21:05:36
+Order: 118 , Freq: 1, Stock: 浦发银行Order: 116 , Freq: 1, Stock: 爱建集团
+2016-12-08 21:15:40
+Order: 118 , Freq: 1, Stock: 浦发银行Order: 116 , Freq: 1, Stock: 爱建集团
+2016-12-08 21:25:45
+Order: 118 , Freq: 1, Stock: 浦发银行Order: 116 , Freq: 1, Stock: 爱建集团
+2016-12-08 21:35:53
+Order: 118 , Freq: 1, Stock: 浦发银行Order: 116 , Freq: 1, Stock: 爱建集团
+2016-12-08 21:46:01
+Order: 122 , Freq: 1, Stock: 浦发银行Order: 120 , Freq: 1, Stock: 爱建集团
+2016-12-08 21:56:05
+Order: 122 , Freq: 1, Stock: 浦发银行Order: 120 , Freq: 1, Stock: 爱建集团
+2016-12-08 22:06:09
+Order: 132 , Freq: 1, Stock: 浦发银行Order: 130 , Freq: 1, Stock: 爱建集团
+2016-12-08 22:16:12
+Order: 136 , Freq: 1, Stock: 浦发银行Order: 132 , Freq: 1, Stock: 爱建集团
+2016-12-08 22:26:16
+Order: 140 , Freq: 1, Stock: 浦发银行Order: 136 , Freq: 1, Stock: 爱建集团
+2016-12-08 22:36:20
+Order: 140 , Freq: 1, Stock: 浦发银行Order: 136 , Freq: 1, Stock: 爱建集团
+2016-12-08 22:46:23
+Order: 140 , Freq: 1, Stock: 浦发银行Order: 136 , Freq: 1, Stock: 爱建集团
+2016-12-08 22:56:27
+Order: 152 , Freq: 1, Stock: 浦发银行Order: 144 , Freq: 1, Stock: 爱建集团
+2016-12-08 23:06:36
+Order: 154 , Freq: 1, Stock: 浦发银行Order: 147 , Freq: 1, Stock: 东北证券
+2016-12-08 23:16:48
+Order: 162 , Freq: 1, Stock: 浦发银行Order: 154 , Freq: 1, Stock: 爱建集团
+2016-12-08 23:26:57
+Order: 166 , Freq: 1, Stock: 浦发银行Order: 158 , Freq: 1, Stock: 爱建集团
+2016-12-08 23:37:06
+Order: 168 , Freq: 1, Stock: 浦发银行Order: 160 , Freq: 1, Stock: 爱建集团
+2016-12-08 23:47:16
+Order: 191 , Freq: 1, Stock: 浦发银行Order: 179 , Freq: 1, Stock: 爱建集团
+2016-12-08 23:57:21
+Order: 191 , Freq: 1, Stock: 浦发银行Order: 179 , Freq: 1, Stock: 爱建集团

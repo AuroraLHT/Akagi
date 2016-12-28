@@ -1,0 +1,242 @@
+2016-12-14 01:23:51
+Order: 151 , Freq: 1, Stock: 中国宝安Order: 143 , Freq: 1, Stock: 长江证券
+2016-12-14 01:33:55
+Order: 153 , Freq: 1, Stock: 中国宝安Order: 147 , Freq: 1, Stock: 长江证券
+2016-12-14 01:44:03
+Order: 159 , Freq: 1, Stock: 中国宝安Order: 147 , Freq: 1, Stock: 长江证券
+2016-12-14 02:27:15
+Order: 167 , Freq: 1, Stock: 浦发银行Order: 165 , Freq: 1, Stock: 长江证券
+2016-12-14 02:37:20
+Order: 168 , Freq: 1, Stock: 浦发银行Order: 165 , Freq: 1, Stock: 长江证券
+2016-12-14 02:47:26
+Order: 194 , Freq: 1, Stock: 浦发银行Order: 187 , Freq: 1, Stock: 长江证券
+2016-12-14 02:57:30
+Order: 194 , Freq: 1, Stock: 浦发银行Order: 187 , Freq: 1, Stock: 长江证券
+2016-12-14 04:49:43
+Order: 194 , Freq: 1, Stock: 浦发银行Order: 187 , Freq: 1, Stock: 长江证券
+2016-12-14 04:59:47
+Order: 194 , Freq: 1, Stock: 浦发银行Order: 187 , Freq: 1, Stock: 长江证券
+2016-12-14 05:09:55
+Order: 194 , Freq: 1, Stock: 浦发银行Order: 187 , Freq: 1, Stock: 长江证券
+2016-12-14 05:19:59
+Order: 194 , Freq: 1, Stock: 浦发银行Order: 187 , Freq: 1, Stock: 长江证券
+2016-12-14 05:30:08
+Order: 197 , Freq: 1, Stock: 浦发银行Order: 189 , Freq: 1, Stock: 长江证券
+2016-12-14 05:40:15
+Order: 209 , Freq: 1, Stock: 浦发银行Order: 193 , Freq: 1, Stock: 长江证券
+2016-12-14 05:50:20
+Order: 217 , Freq: 1, Stock: 浦发银行Order: 194 , Freq: 1, Stock: 东方证券
+2016-12-14 06:00:28
+Order: 217 , Freq: 1, Stock: 浦发银行Order: 194 , Freq: 1, Stock: 东方证券
+2016-12-14 06:10:33
+Order: 223 , Freq: 1, Stock: 浦发银行Order: 199 , Freq: 1, Stock: 东方证券
+2016-12-14 06:20:40
+Order: 223 , Freq: 1, Stock: 浦发银行Order: 199 , Freq: 1, Stock: 东方证券
+2016-12-14 06:30:48
+Order: 223 , Freq: 1, Stock: 浦发银行Order: 200 , Freq: 1, Stock: 长江证券
+2016-12-14 06:40:56
+Order: 225 , Freq: 1, Stock: 浦发银行Order: 202 , Freq: 1, Stock: 长江证券
+2016-12-14 06:51:01
+Order: 225 , Freq: 1, Stock: 浦发银行Order: 202 , Freq: 1, Stock: 长江证券
+2016-12-14 07:01:11
+Order: 226 , Freq: 1, Stock: 浦发银行Order: 202 , Freq: 2, Stock: 长江证券,东方证券
+2016-12-14 07:11:24
+Order: 249 , Freq: 1, Stock: 浦发银行Order: 223 , Freq: 1, Stock: 长江证券
+2016-12-14 07:21:31
+Order: 250 , Freq: 1, Stock: 浦发银行Order: 223 , Freq: 1, Stock: 长江证券
+2016-12-14 07:31:37
+Order: 257 , Freq: 1, Stock: 浦发银行Order: 227 , Freq: 2, Stock: 长江证券,东方证券
+2016-12-14 07:41:44
+Order: 263 , Freq: 1, Stock: 浦发银行Order: 233 , Freq: 2, Stock: 长江证券,东方证券
+2016-12-14 07:51:54
+Order: 263 , Freq: 1, Stock: 浦发银行Order: 233 , Freq: 2, Stock: 长江证券,东方证券
+2016-12-14 08:02:01
+Order: 268 , Freq: 1, Stock: 浦发银行Order: 234 , Freq: 1, Stock: 东方证券
+2016-12-14 08:12:08
+Order: 285 , Freq: 1, Stock: 浦发银行Order: 247 , Freq: 2, Stock: 上汽集团,华域汽车
+2016-12-14 08:22:13
+Order: 293 , Freq: 1, Stock: 浦发银行Order: 249 , Freq: 1, Stock: 东方证券
+2016-12-14 08:32:21
+Order: 293 , Freq: 1, Stock: 浦发银行Order: 251 , Freq: 2, Stock: 上汽集团,华域汽车
+2016-12-14 08:42:28
+Order: 295 , Freq: 1, Stock: 浦发银行Order: 253 , Freq: 2, Stock: 上汽集团,华域汽车
+2016-12-14 08:52:32
+Order: 311 , Freq: 1, Stock: 浦发银行Order: 263 , Freq: 2, Stock: 东方证券,海通证券
+2016-12-14 09:02:39
+Order: 321 , Freq: 1, Stock: 浦发银行Order: 273 , Freq: 2, Stock: 东方证券,海通证券
+2016-12-14 09:12:43
+Order: 321 , Freq: 1, Stock: 浦发银行Order: 273 , Freq: 2, Stock: 东方证券,海通证券
+2016-12-14 09:22:48
+Order: 321 , Freq: 1, Stock: 浦发银行Order: 273 , Freq: 2, Stock: 东方证券,海通证券
+2016-12-14 09:32:55
+Order: 321 , Freq: 1, Stock: 浦发银行Order: 273 , Freq: 2, Stock: 东方证券,海通证券
+2016-12-14 09:43:03
+Order: 326 , Freq: 1, Stock: 浦发银行Order: 278 , Freq: 2, Stock: 东方证券,海通证券
+2016-12-14 09:53:10
+Order: 328 , Freq: 1, Stock: 浦发银行Order: 280 , Freq: 2, Stock: 东方证券,海通证券
+2016-12-14 10:03:17
+Order: 348 , Freq: 1, Stock: 浦发银行Order: 300 , Freq: 1, Stock: 海通证券
+2016-12-14 10:13:25
+Order: 357 , Freq: 1, Stock: 浦发银行Order: 309 , Freq: 1, Stock: 海通证券
+2016-12-14 10:23:30
+Order: 359 , Freq: 1, Stock: 浦发银行Order: 311 , Freq: 1, Stock: 海通证券
+2016-12-14 10:33:36
+Order: 359 , Freq: 1, Stock: 浦发银行Order: 311 , Freq: 1, Stock: 海通证券
+2016-12-14 10:43:42
+Order: 359 , Freq: 1, Stock: 浦发银行Order: 311 , Freq: 1, Stock: 海通证券
+2016-12-14 10:53:48
+Order: 359 , Freq: 1, Stock: 浦发银行Order: 311 , Freq: 1, Stock: 海通证券
+2016-12-14 11:03:53
+Order: 359 , Freq: 1, Stock: 浦发银行Order: 311 , Freq: 1, Stock: 海通证券
+2016-12-14 11:14:01
+Order: 359 , Freq: 1, Stock: 浦发银行Order: 311 , Freq: 1, Stock: 海通证券
+2016-12-14 11:24:08
+Order: 359 , Freq: 1, Stock: 浦发银行Order: 311 , Freq: 1, Stock: 海通证券
+2016-12-14 11:34:17
+Order: 382 , Freq: 1, Stock: 浦发银行Order: 328 , Freq: 1, Stock: 海通证券
+2016-12-14 11:44:24
+Order: 382 , Freq: 1, Stock: 浦发银行Order: 328 , Freq: 1, Stock: 海通证券
+2016-12-14 11:54:35
+Order: 382 , Freq: 1, Stock: 浦发银行Order: 328 , Freq: 1, Stock: 海通证券
+2016-12-14 12:04:45
+Order: 384 , Freq: 1, Stock: 浦发银行Order: 330 , Freq: 1, Stock: 海通证券
+2016-12-14 12:14:53
+Order: 384 , Freq: 1, Stock: 浦发银行Order: 330 , Freq: 1, Stock: 海通证券
+2016-12-14 12:25:01
+Order: 384 , Freq: 1, Stock: 浦发银行Order: 330 , Freq: 1, Stock: 海通证券
+2016-12-14 12:35:10
+Order: 384 , Freq: 1, Stock: 浦发银行Order: 330 , Freq: 1, Stock: 海通证券
+2016-12-14 12:45:17
+Order: 384 , Freq: 1, Stock: 浦发银行Order: 330 , Freq: 1, Stock: 海通证券
+2016-12-14 12:55:23
+Order: 384 , Freq: 1, Stock: 浦发银行Order: 330 , Freq: 1, Stock: 海通证券
+2016-12-14 13:05:29
+Order: 384 , Freq: 1, Stock: 浦发银行Order: 330 , Freq: 1, Stock: 海通证券
+2016-12-14 13:15:35
+Order: 386 , Freq: 1, Stock: 浦发银行Order: 332 , Freq: 1, Stock: 海通证券
+2016-12-14 13:25:42
+Order: 386 , Freq: 1, Stock: 浦发银行Order: 332 , Freq: 1, Stock: 海通证券
+2016-12-14 13:35:51
+Order: 386 , Freq: 1, Stock: 浦发银行Order: 332 , Freq: 1, Stock: 海通证券
+2016-12-14 13:45:57
+Order: 386 , Freq: 1, Stock: 浦发银行Order: 332 , Freq: 1, Stock: 海通证券
+2016-12-14 13:56:03
+Order: 390 , Freq: 1, Stock: 浦发银行Order: 342 , Freq: 2, Stock: 上汽集团,华域汽车
+2016-12-14 14:06:09
+Order: 390 , Freq: 1, Stock: 浦发银行Order: 342 , Freq: 2, Stock: 上汽集团,华域汽车
+2016-12-14 14:16:17
+Order: 390 , Freq: 1, Stock: 浦发银行Order: 342 , Freq: 2, Stock: 上汽集团,华域汽车
+2016-12-14 14:26:25
+Order: 394 , Freq: 1, Stock: 浦发银行Order: 342 , Freq: 2, Stock: 上汽集团,华域汽车
+2016-12-14 14:36:31
+Order: 396 , Freq: 1, Stock: 浦发银行Order: 346 , Freq: 2, Stock: 上汽集团,华域汽车
+2016-12-14 14:46:37
+Order: 408 , Freq: 1, Stock: 浦发银行Order: 354 , Freq: 1, Stock: 海通证券
+2016-12-14 14:56:48
+Order: 414 , Freq: 1, Stock: 浦发银行Order: 360 , Freq: 1, Stock: 海通证券
+2016-12-14 15:06:58
+Order: 414 , Freq: 1, Stock: 浦发银行Order: 360 , Freq: 1, Stock: 海通证券
+2016-12-14 15:17:06
+Order: 414 , Freq: 1, Stock: 浦发银行Order: 360 , Freq: 1, Stock: 海通证券
+2016-12-14 15:27:14
+Order: 418 , Freq: 1, Stock: 浦发银行Order: 364 , Freq: 1, Stock: 海通证券
+2016-12-14 15:37:20
+Order: 432 , Freq: 1, Stock: 浦发银行Order: 378 , Freq: 1, Stock: 海通证券
+2016-12-14 15:47:29
+Order: 436 , Freq: 1, Stock: 浦发银行Order: 382 , Freq: 1, Stock: 海通证券
+2016-12-14 15:57:33
+Order: 436 , Freq: 1, Stock: 浦发银行Order: 382 , Freq: 1, Stock: 海通证券
+2016-12-14 16:07:38
+Order: 436 , Freq: 1, Stock: 浦发银行Order: 382 , Freq: 1, Stock: 海通证券
+2016-12-14 16:17:43
+Order: 436 , Freq: 1, Stock: 浦发银行Order: 382 , Freq: 1, Stock: 海通证券
+2016-12-14 16:27:51
+Order: 436 , Freq: 1, Stock: 浦发银行Order: 382 , Freq: 1, Stock: 海通证券
+2016-12-14 16:37:54
+Order: 436 , Freq: 1, Stock: 浦发银行Order: 382 , Freq: 1, Stock: 海通证券
+2016-12-14 16:48:02
+Order: 436 , Freq: 1, Stock: 浦发银行Order: 382 , Freq: 1, Stock: 海通证券
+2016-12-14 16:58:06
+Order: 436 , Freq: 1, Stock: 浦发银行Order: 382 , Freq: 1, Stock: 海通证券
+2016-12-14 17:08:11
+Order: 436 , Freq: 1, Stock: 浦发银行Order: 383 , Freq: 1, Stock: 民生银行
+2016-12-14 17:18:16
+Order: 436 , Freq: 1, Stock: 浦发银行Order: 383 , Freq: 1, Stock: 民生银行
+2016-12-14 17:28:22
+Order: 443 , Freq: 1, Stock: 浦发银行Order: 389 , Freq: 2, Stock: 民生银行,海通证券
+2016-12-14 17:38:30
+Order: 443 , Freq: 1, Stock: 浦发银行Order: 389 , Freq: 2, Stock: 民生银行,海通证券
+2016-12-14 17:48:35
+Order: 443 , Freq: 1, Stock: 浦发银行Order: 389 , Freq: 2, Stock: 民生银行,海通证券
+2016-12-14 17:58:42
+Order: 443 , Freq: 1, Stock: 浦发银行Order: 391 , Freq: 1, Stock: 民生银行
+2016-12-14 18:08:48
+Order: 443 , Freq: 1, Stock: 浦发银行Order: 391 , Freq: 1, Stock: 民生银行
+2016-12-14 18:18:54
+Order: 443 , Freq: 1, Stock: 浦发银行Order: 392 , Freq: 1, Stock: 民生银行
+2016-12-14 18:29:02
+Order: 443 , Freq: 1, Stock: 浦发银行Order: 392 , Freq: 1, Stock: 民生银行
+2016-12-14 18:39:11
+Order: 449 , Freq: 1, Stock: 浦发银行Order: 399 , Freq: 1, Stock: 民生银行
+2016-12-14 18:49:18
+Order: 449 , Freq: 1, Stock: 浦发银行Order: 399 , Freq: 1, Stock: 民生银行
+2016-12-14 18:59:26
+Order: 449 , Freq: 1, Stock: 浦发银行Order: 399 , Freq: 1, Stock: 民生银行
+2016-12-14 19:09:32
+Order: 449 , Freq: 1, Stock: 浦发银行Order: 401 , Freq: 3, Stock: 民生银行,上汽集团,华域汽车
+2016-12-14 19:19:40
+Order: 449 , Freq: 1, Stock: 浦发银行Order: 401 , Freq: 3, Stock: 民生银行,上汽集团,华域汽车
+2016-12-14 19:29:47
+Order: 451 , Freq: 1, Stock: 浦发银行Order: 407 , Freq: 1, Stock: 民生银行
+2016-12-14 19:39:53
+Order: 451 , Freq: 1, Stock: 浦发银行Order: 407 , Freq: 1, Stock: 民生银行
+2016-12-14 19:50:00
+Order: 451 , Freq: 1, Stock: 浦发银行Order: 407 , Freq: 1, Stock: 民生银行
+2016-12-14 20:00:06
+Order: 451 , Freq: 1, Stock: 浦发银行Order: 407 , Freq: 1, Stock: 民生银行
+2016-12-14 20:10:12
+Order: 457 , Freq: 1, Stock: 浦发银行Order: 414 , Freq: 1, Stock: 民生银行
+2016-12-14 20:20:19
+Order: 457 , Freq: 1, Stock: 浦发银行Order: 414 , Freq: 1, Stock: 民生银行
+2016-12-14 20:30:24
+Order: 457 , Freq: 1, Stock: 浦发银行Order: 415 , Freq: 1, Stock: 民生银行
+2016-12-14 20:40:32
+Order: 457 , Freq: 1, Stock: 浦发银行Order: 415 , Freq: 1, Stock: 民生银行
+2016-12-14 20:50:36
+Order: 457 , Freq: 1, Stock: 浦发银行Order: 417 , Freq: 1, Stock: 民生银行
+2016-12-14 21:00:45
+Order: 457 , Freq: 1, Stock: 浦发银行Order: 417 , Freq: 1, Stock: 民生银行
+2016-12-14 21:10:53
+Order: 457 , Freq: 1, Stock: 浦发银行Order: 418 , Freq: 1, Stock: 民生银行
+2016-12-14 21:21:00
+Order: 457 , Freq: 1, Stock: 浦发银行Order: 419 , Freq: 1, Stock: 民生银行
+2016-12-14 21:31:07
+Order: 457 , Freq: 1, Stock: 浦发银行Order: 419 , Freq: 1, Stock: 民生银行
+2016-12-14 21:41:16
+Order: 457 , Freq: 1, Stock: 浦发银行Order: 419 , Freq: 1, Stock: 民生银行
+2016-12-14 21:51:22
+Order: 459 , Freq: 1, Stock: 浦发银行Order: 423 , Freq: 1, Stock: 民生银行
+2016-12-14 22:01:30
+Order: 459 , Freq: 1, Stock: 浦发银行Order: 427 , Freq: 1, Stock: 民生银行
+2016-12-14 22:11:37
+Order: 464 , Freq: 1, Stock: 浦发银行Order: 430 , Freq: 1, Stock: 民生银行
+2016-12-14 22:21:45
+Order: 476 , Freq: 1, Stock: 浦发银行Order: 443 , Freq: 1, Stock: 民生银行
+2016-12-14 22:31:52
+Order: 494 , Freq: 1, Stock: 浦发银行Order: 465 , Freq: 1, Stock: 民生银行
+2016-12-14 22:42:00
+Order: 512 , Freq: 1, Stock: 浦发银行Order: 466 , Freq: 1, Stock: 民生银行
+2016-12-14 22:52:04
+Order: 547 , Freq: 1, Stock: 浦发银行Order: 477 , Freq: 1, Stock: 民生银行
+2016-12-14 23:02:13
+Order: 549 , Freq: 1, Stock: 浦发银行Order: 481 , Freq: 1, Stock: 民生银行
+2016-12-14 23:12:21
+Order: 586 , Freq: 1, Stock: 浦发银行Order: 508 , Freq: 1, Stock: 民生银行
+2016-12-14 23:22:28
+Order: 592 , Freq: 1, Stock: 浦发银行Order: 514 , Freq: 1, Stock: 民生银行
+2016-12-14 23:32:33
+Order: 609 , Freq: 1, Stock: 浦发银行Order: 519 , Freq: 1, Stock: 民生银行
+2016-12-14 23:42:39
+Order: 631 , Freq: 1, Stock: 浦发银行Order: 523 , Freq: 2, Stock: 民生银行,海通证券
+2016-12-14 23:52:45
+Order: 631 , Freq: 1, Stock: 浦发银行Order: 523 , Freq: 2, Stock: 民生银行,海通证券

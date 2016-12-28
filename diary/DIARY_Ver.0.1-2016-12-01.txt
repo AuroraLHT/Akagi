@@ -1,0 +1,208 @@
+2016-12-01 00:09:01
+Order: 155 , Freq: 1, Stock: 浦发银行Order: 149 , Freq: 2, Stock: 海通证券,东方证券
+2016-12-01 00:19:07
+Order: 155 , Freq: 1, Stock: 浦发银行Order: 149 , Freq: 2, Stock: 海通证券,东方证券
+2016-12-01 00:29:14
+Order: 155 , Freq: 1, Stock: 浦发银行Order: 149 , Freq: 2, Stock: 海通证券,东方证券
+2016-12-01 00:39:20
+Order: 155 , Freq: 1, Stock: 浦发银行Order: 149 , Freq: 2, Stock: 海通证券,东方证券
+2016-12-01 00:49:26
+Order: 155 , Freq: 1, Stock: 浦发银行Order: 149 , Freq: 2, Stock: 海通证券,东方证券
+2016-12-01 00:59:33
+Order: 155 , Freq: 1, Stock: 浦发银行Order: 149 , Freq: 2, Stock: 海通证券,东方证券
+2016-12-01 01:09:39
+Order: 155 , Freq: 1, Stock: 浦发银行Order: 149 , Freq: 2, Stock: 海通证券,东方证券
+2016-12-01 01:19:45
+Order: 155 , Freq: 1, Stock: 浦发银行Order: 149 , Freq: 2, Stock: 海通证券,东方证券
+2016-12-01 01:29:51
+Order: 155 , Freq: 1, Stock: 浦发银行Order: 149 , Freq: 2, Stock: 海通证券,东方证券
+2016-12-01 01:39:57
+Order: 155 , Freq: 1, Stock: 浦发银行Order: 149 , Freq: 2, Stock: 海通证券,东方证券
+2016-12-01 01:50:04
+Order: 155 , Freq: 1, Stock: 浦发银行Order: 149 , Freq: 2, Stock: 海通证券,东方证券
+2016-12-01 02:00:10
+Order: 155 , Freq: 1, Stock: 浦发银行Order: 149 , Freq: 2, Stock: 海通证券,东方证券
+2016-12-01 02:10:18
+Order: 155 , Freq: 1, Stock: 浦发银行Order: 149 , Freq: 2, Stock: 海通证券,东方证券
+2016-12-01 02:20:23
+Order: 155 , Freq: 1, Stock: 浦发银行Order: 149 , Freq: 2, Stock: 海通证券,东方证券
+2016-12-01 02:30:30
+Order: 155 , Freq: 1, Stock: 浦发银行Order: 149 , Freq: 2, Stock: 海通证券,东方证券
+2016-12-01 02:40:35
+Order: 157 , Freq: 1, Stock: 浦发银行Order: 151 , Freq: 2, Stock: 海通证券,东方证券
+2016-12-01 02:50:41
+Order: 157 , Freq: 1, Stock: 浦发银行Order: 151 , Freq: 2, Stock: 海通证券,东方证券
+2016-12-01 03:00:48
+Order: 157 , Freq: 1, Stock: 浦发银行Order: 151 , Freq: 2, Stock: 海通证券,东方证券
+2016-12-01 03:10:55
+Order: 157 , Freq: 1, Stock: 浦发银行Order: 151 , Freq: 2, Stock: 海通证券,东方证券
+2016-12-01 03:21:03
+Order: 157 , Freq: 1, Stock: 浦发银行Order: 151 , Freq: 2, Stock: 海通证券,东方证券
+2016-12-01 03:31:08
+Order: 157 , Freq: 1, Stock: 浦发银行Order: 151 , Freq: 2, Stock: 海通证券,东方证券
+2016-12-01 03:41:14
+Order: 157 , Freq: 1, Stock: 浦发银行Order: 151 , Freq: 2, Stock: 海通证券,东方证券
+2016-12-01 03:51:19
+Order: 157 , Freq: 1, Stock: 浦发银行Order: 151 , Freq: 2, Stock: 海通证券,东方证券
+2016-12-01 04:01:24
+Order: 157 , Freq: 1, Stock: 浦发银行Order: 151 , Freq: 2, Stock: 海通证券,东方证券
+2016-12-01 04:11:30
+Order: 157 , Freq: 1, Stock: 浦发银行Order: 151 , Freq: 2, Stock: 海通证券,东方证券
+2016-12-01 04:21:36
+Order: 157 , Freq: 1, Stock: 浦发银行Order: 151 , Freq: 2, Stock: 海通证券,东方证券
+2016-12-01 04:31:43
+Order: 159 , Freq: 1, Stock: 浦发银行Order: 153 , Freq: 2, Stock: 海通证券,东方证券
+2016-12-01 04:41:49
+Order: 159 , Freq: 1, Stock: 浦发银行Order: 153 , Freq: 2, Stock: 海通证券,东方证券
+2016-12-01 04:51:55
+Order: 159 , Freq: 1, Stock: 浦发银行Order: 153 , Freq: 2, Stock: 海通证券,东方证券
+2016-12-01 05:02:01
+Order: 159 , Freq: 1, Stock: 浦发银行Order: 153 , Freq: 2, Stock: 海通证券,东方证券
+2016-12-01 05:12:08
+Order: 159 , Freq: 1, Stock: 浦发银行Order: 153 , Freq: 2, Stock: 海通证券,东方证券
+2016-12-01 05:22:14
+Order: 159 , Freq: 1, Stock: 浦发银行Order: 153 , Freq: 2, Stock: 海通证券,东方证券
+2016-12-01 05:32:21
+Order: 159 , Freq: 1, Stock: 浦发银行Order: 155 , Freq: 1, Stock: 东方证券
+2016-12-01 05:42:27
+Order: 159 , Freq: 1, Stock: 浦发银行Order: 155 , Freq: 1, Stock: 东方证券
+2016-12-01 05:52:33
+Order: 159 , Freq: 1, Stock: 浦发银行Order: 155 , Freq: 1, Stock: 东方证券
+2016-12-01 06:02:44
+Order: 159 , Freq: 1, Stock: 浦发银行Order: 155 , Freq: 1, Stock: 东方证券
+2016-12-01 06:12:53
+Order: 161 , Freq: 1, Stock: 浦发银行Order: 157 , Freq: 1, Stock: 东方证券
+2016-12-01 06:23:02
+Order: 161 , Freq: 1, Stock: 浦发银行Order: 159 , Freq: 1, Stock: 东方证券
+2016-12-01 06:33:14
+Order: 161 , Freq: 1, Stock: 浦发银行Order: 159 , Freq: 1, Stock: 东方证券
+2016-12-01 06:43:22
+Order: 161 , Freq: 1, Stock: 浦发银行Order: 159 , Freq: 1, Stock: 东方证券
+2016-12-01 06:53:28
+Order: 161 , Freq: 1, Stock: 浦发银行Order: 159 , Freq: 1, Stock: 东方证券
+2016-12-01 07:03:34
+Order: 161 , Freq: 1, Stock: 浦发银行Order: 159 , Freq: 1, Stock: 东方证券
+2016-12-01 07:13:40
+Order: 161 , Freq: 1, Stock: 浦发银行Order: 159 , Freq: 1, Stock: 东方证券
+2016-12-01 07:23:46
+Order: 161 , Freq: 1, Stock: 浦发银行Order: 159 , Freq: 1, Stock: 东方证券
+2016-12-01 07:33:53
+Order: 161 , Freq: 1, Stock: 浦发银行Order: 159 , Freq: 1, Stock: 东方证券
+2016-12-01 07:43:58
+Order: 161 , Freq: 1, Stock: 浦发银行Order: 159 , Freq: 1, Stock: 东方证券
+2016-12-01 07:54:05
+Order: 161 , Freq: 1, Stock: 浦发银行Order: 159 , Freq: 1, Stock: 东方证券
+2016-12-01 08:04:11
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 08:14:17
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 08:24:23
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 08:34:30
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 08:44:37
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 08:54:43
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 09:04:49
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 09:14:55
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 15:54:53
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 16:04:58
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 16:15:03
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 16:25:08
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 16:35:14
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 16:45:19
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 16:55:24
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 17:05:29
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 17:15:34
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 17:25:39
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 17:35:45
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 17:45:50
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 17:55:55
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 18:06:00
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 18:16:06
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 18:26:14
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 18:36:20
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 18:46:26
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 18:56:32
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 19:06:38
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 19:16:43
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 19:26:49
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 19:36:54
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 19:47:01
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 19:57:06
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 20:07:12
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 20:17:19
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 20:27:25
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 20:37:44
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 20:47:50
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 20:58:00
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 21:08:07
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 21:18:14
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 21:28:21
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 21:38:27
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 21:48:33
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 21:58:39
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 22:08:45
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 155 , Freq: 1, Stock: 海通证券
+2016-12-01 22:18:52
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 156 , Freq: 1, Stock: 海通证券
+2016-12-01 22:28:59
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 156 , Freq: 1, Stock: 海通证券
+2016-12-01 22:39:06
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 156 , Freq: 1, Stock: 海通证券
+2016-12-01 22:49:12
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 156 , Freq: 1, Stock: 海通证券
+2016-12-01 22:59:19
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 156 , Freq: 1, Stock: 海通证券
+2016-12-01 23:09:25
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 156 , Freq: 1, Stock: 海通证券
+2016-12-01 23:19:31
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 156 , Freq: 1, Stock: 海通证券
+2016-12-01 23:29:38
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 156 , Freq: 1, Stock: 海通证券
+2016-12-01 23:39:43
+Order: 161 , Freq: 2, Stock: 浦发银行,东方证券Order: 156 , Freq: 1, Stock: 海通证券
+2016-12-01 23:49:50
+Order: 162 , Freq: 2, Stock: 浦发银行,东方证券Order: 157 , Freq: 1, Stock: 海通证券
+2016-12-01 23:59:58
+Order: 162 , Freq: 2, Stock: 浦发银行,东方证券Order: 157 , Freq: 1, Stock: 海通证券

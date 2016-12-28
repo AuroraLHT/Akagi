@@ -1,0 +1,18 @@
+{
+    "DataSavingtype": "excel",
+    "DefaultPath": "C:/Users/macbook/Desktop/",
+    "Force": 0,
+    "MacroSavingPath": "C:/Users/macbook/Desktop/研究数据/个股/AutoMacro/",
+    "StockSavingpath": "C:/Users/macbook/Desktop/研究数据/股票历史/",
+    "author": "aurora",
+    "code": [
+        "000415",
+        "600705",
+        "601901",
+        "600000",
+        "002555",
+        "601238"
+    ],
+    "instruction_mode": 1,
+    "modifytime": ""
+}
